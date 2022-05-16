@@ -1,27 +1,25 @@
-# Frontend
+# Prerequisite
+ - NodeJs
+ - npm
+ - Angular CLI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+To check your machine has Nodejs and npm, refer to Installation
+# How to run 
+Inside frontend folder, run: 
 
-## Development server
+    $ npm install
+    $ npm start
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+This project will then run on localhost:4200
+ 
+# Installation
+   Check if node or npm is installed in your machine by: 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    $ node -v  
+    v14.15.15  #sample output
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    $ npm -v
+    8.10.0 #sample output
+To install npm and Nodejs, refer to this doc https://github.com/nvm-sh/nvm
+To install Angular CLI, refer to this doc https://angular.io/cli
