@@ -1,0 +1,56 @@
+@import "src/app/scss/_styles";
+
+header {
+  background-color: $themeColor;
+  min-height: $size-6;
+  margin-bottom: $space-1;
+  width: 100%;
+}
+
+.page-container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .field-container {
+    margin-bottom: $space-1;
+    font-weight: 400;
+    word-break: break-word;
+
+    label {
+      font-size:  $size-3;
+      font-family: $labelFont;
+      text-transform: capitalize;
+    }
+
+      .form-control.ng-invalid.ng-touched {
+        border: solid $errorColor 1px;
+      }
+
+    .description {
+      font-size: $size-1;
+      line-height: 1.4 !important;
+      margin: 0;
+    }
+
+  }
+
+  .btn-scala {
+    width: 100%;
+    text-decoration: none;
+    background-color: $buttonColor;
+    border: none;
+    border-radius: $size-0;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-size: $size-3;
+    padding: $size-0 $size-3;
+  }
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  padding: $space-0 $space-1 $space-0 $space-1;
+}
