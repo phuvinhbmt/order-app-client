@@ -10,6 +10,21 @@ Inside frontend folder, run:
     $ npm install # this also installs Angular CLI
     $ npm start
 
+Terminal should output (`✔ Compiled successfully`. on last line)
+
+    Build at: 2022-05-16T00:48:27.225Z - Hash: 0779f1e9af399fc3 - Time: 7628ms
+    
+    ** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+    
+    
+    ✔ Compiled successfully.
+    ✔ Browser application bundle generation complete.
+    
+    5 unchanged chunks
+    
+    Build at: 2022-05-16T00:48:28.039Z - Hash: 0779f1e9af399fc3 - Time: 697ms
+    
+    ✔ Compiled successfully.
 
 This project will then run on localhost:4200
  
