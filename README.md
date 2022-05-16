@@ -7,7 +7,7 @@ To check your machine has Nodejs and npm, refer to Installation
 # How to run 
 Inside frontend folder, run: 
 
-    $ npm install
+    $ npm install # this also installs Angular CLI
     $ npm start
 
 
@@ -22,4 +22,4 @@ This project will then run on localhost:4200
     $ npm -v
     8.10.0 #sample output
 To install npm and Nodejs, refer to this doc https://github.com/nvm-sh/nvm
-To install Angular CLI, refer to this doc https://angular.io/cli
+To manually install Angular CLI, refer to this doc https://angular.io/cli
